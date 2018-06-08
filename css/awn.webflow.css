@@ -1,0 +1,190 @@
+.body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+}
+
+.maincontainer {
+  padding-top: 120px;
+  padding-bottom: 20px;
+}
+
+.photo {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #fff;
+  border-radius: 90px;
+  background-color: #e7e7e7;
+  background-image: url('../images/mohammed_400.jpg');
+  background-position: 50% 61%;
+  background-size: 250px;
+  box-shadow: 1px 1px 3px 0 #ffa;
+}
+
+.name {
+  font-family: Merriweather, serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.oneliner {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.bio {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: 0.7px;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: -webkit-linear-gradient(270deg, rgba(58, 24, 8, .36), rgba(58, 24, 8, .36)), url('../images/pexels-photo-45085_blurry.jpg');
+  background-image: linear-gradient(180deg, rgba(58, 24, 8, .36), rgba(58, 24, 8, .36)), url('../images/pexels-photo-45085_blurry.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.r1c1 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.r1c1d1 {
+  width: 100%;
+  height: 350px;
+  background-color: #0098ff;
+  background-image: url('../images/FB_IMG_1454544488407.jpg'), url('../images/7372642296_bbc846c7c8_o.jpg');
+  background-position: 50% 50%, 50% 50%;
+  background-size: cover, cover;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.r1c1d1.in-cars {
+  background-image: url('../images/bmw-car-city-street-chicago-i8-traffic-road.jpg');
+  background-position: 50% 41%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.r1c2d1 {
+  height: 350px;
+  padding: 30px 25px 20px;
+  background-color: #d67107;
+}
+
+.r1c2 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.sep {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.r2c1d1 {
+  width: 100%;
+  height: 350px;
+  padding: 30px 25px 20px;
+  background-color: #5e5b5b;
+}
+
+.text {
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.quote {
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  border-left-style: none;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  color: #3d3d3d;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.q {
+  font-family: Inconsolata, monospace;
+  font-size: 46px;
+}
+
+.socials {
+  display: block;
+  width: 210px;
+  height: 40px;
+  margin-top: 36px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-top: 7px;
+  padding-left: 8px;
+  border-radius: 60px;
+  background-color: hsla(0, 0%, 100%, .71);
+}
+
+.fa {
+  width: 40px;
+  height: 40px;
+  float: left;
+  color: #353535;
+  text-decoration: none;
+}
+
+.fa.fa-twitter.fa-lg {
+  color: #181818;
+}
+
+.fa.fa-twitter.fa-2x {
+  color: #55acee;
+}
+
+.fa.fa-facebook.fa-2x {
+  color: #3b5998;
+}
+
+.fa.fa-instagram.fa-2x {
+  color: #3f729b;
+}
+
+.fa.fa-at.fa-2x {
+  color: #288bd8;
+}
+
+@media (max-width: 479px) {
+  .bio {
+    width: 90%;
+  }
+  .quote {
+    width: 90%;
+  }
+}
